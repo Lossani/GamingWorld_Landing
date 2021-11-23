@@ -1,306 +1,296 @@
 <!doctype html>
-<html lang="es" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
-
-  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-  <link
-    href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
-    rel="stylesheet" />
-  <link rel="shortcut icon" href="icon.png">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <title>GamingWorld</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+            rel="stylesheet" />
+    <link rel="shortcut icon" href="icon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>GamingWorld</title>
+    <link rel="stylesheet" href="css/styles.css?version=1.0">
+    <script src="js/jquery.min.js"></script>
 
 </head>
 
 <body>
 
-  <header>
+<header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top ml-auto">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo-blanco.png" alt="" width="120">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto flex-nowrap text-end">
-            <a class="nav-link " href="#Descargar">Download</a>
-            <a class="nav-link " href="#Novedades">News</a>
-            <a class="nav-link " href="#Planes">Plans</a>
-            <a class="nav-link " href="#Nosotros">About us</a>
-            <a class="nav-link " href="#Informacion">More Information</a>
-          </div>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo-blanco.png" alt="" width="120" >
+            </a>
+
+        
+    <div class="lang_switcher">
+        <button id="en" class="lang btn-sm me-md-2">EN</button>
+        <button id="es" class="lang btn-sm ">ES</button>
+    </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto flex-nowrap text-end">
+                    <a key="home" class="nav-link tr" href="#Home">Home</a>
+                    <a key="news" class="nav-link tr" href="#Features" >News</a>
+                    <a key="plans" class="nav-link tr" href="#Plans">Plans</a>
+                    <a key="about" class="nav-link tr" href="#AboutUs">About us</a>
+                    <a key="more" class="nav-link tr" href="#Information">More information</a>
+                </div>
+            </div>
         </div>
-      </div>
     </nav>
-  </header>
+</header>
 
-  <main>
-    <section class="sec1" id="Descargar">
-      <div class="content">
-        <div>
-          <h1 id="MainTitle" class="text-center">LET'S MAKE THE WORLD MORE GAMER </h1>
+<main>
+
+    <section class="sec1" id="Home">
+        <div class="content">
+            <div><h1 key="gamer" class="text-center tr">LET'S MAKE THE WORLD MORE GAMER</h1></div>
+            <div class="textBox">
+                <p key="join" class="tr"> Join and connect to the competitive video game scene and help us grow this community<br>
+                </p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="https://gamingworldvue.web.app/#/" target="_blank">
+                    <button key="button" class="tr" type="button"  href="">Join our community</button>
+                </a>
+            </div>
         </div>
-        <div id="BasicInfo" class="textBox">
-          <p> Join and connect to the competitive <br>
-            video game scene and help us<br>
-            grow this community<br>
-          </p>
-        </div>
-        <div class="d-flex justify-content-center">
-          <a href="https://gamingworldangular.web.app/" target="_blank">
-            <button type="button" href=""> Join our community</button>
-          </a>
-        </div>
-
-
-
-      </div>
     </section>
 
-    <section class="sec2 " id="Novedades">
-      <div class="container">
+    <section class="sec2 " id="Features">
+        <div class="container">
 
-        <!-- Featured Project Row-->
-        <div class="row justify-content-center align-items-center no-gutters margen-nov-1">
-          <div class="col-xl-6 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/GamerAmateur.jpg" alt="" /></div>
-          <div class="col-xl-4 col-lg-5">
+            <!-- Featured Project Row-->
+            <div class="row justify-content-center align-items-center no-gutters margen-nov-1">
+                <div class="col-xl-6 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/GamerAmateur.jpg" alt="" /></div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h1 key="amateur" class="text-white mb-0 tr">Amateur Gamer</h1>
+                        <p key="large-text" class="text-white-50 mb-0 tr">You can register and share your achievements and video games that you play so that you have a better chance of belonging to professional gaming teams.</p>
+<!--                        <a href="https://www.youtube.com" target="_blank"><button type="button">More Information</button></a>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center no-gutters margen-nov">
+                <div class="col-xl-6 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/StreamerAmateur.jpg" alt="" /></div>
+                <div class="col-xl-4 col-lg-5 order-lg-first">
+                    <div class="featured-text text-center text-lg-left">
+                        <h1 key="streamer" class="text-white mb-0 tr">Amateur Streamer</h1>
+                        <p key="large-text-2" class="text-white-50 mb-0 tr">Stream with two simple steps and your streams will reach many persons. Enjoy and have fun broadcasting direct.</p>
+<!--                        <a href="https://www.youtube.com" target="_blank"><button type="button">More Information</button></a>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center no-gutters margen-nov">
+                <div class="col-xl-6 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/Tareas.jpg" alt="" /></div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h1 key="tips" class="text-white mb-0 tr">News and Tournaments</h1>
+                        <p key="large-text-3" class="text-white-50 mb-0 tr">Improve your skills attending tournaments organized by the same community.</p>
+<!--                        <a href="https://www.youtube.com" target="_blank"><button type="button">More Information</button></a>-->
+                    </div>
+                </div>
+            </div>
+
             <div class="featured-text text-center text-lg-left">
-              <h1 class="text-white mb-0">Amateur Gamer</h1>
-              <p class="text-white-50 mb-0">
-                You can register and share your achievements and video games that you play so that you have
-                a better chance of belonging to professional gaming teams. </p>
+                <h1 key="video" class="text-white tr">Video About The Product</h1>
+                <div class="mb-4 pb-4 ratio ratio-16x9">
+                    <iframe width="560" height="315" src="videos/about-product.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="row justify-content-center align-items-center no-gutters margen-nov">
-          <div class="col-xl-6 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/StreamerAmateur.jpg" alt="" />
-          </div>
-          <div class="col-xl-4 col-lg-5 order-lg-first">
+        </div>
+    </section>
+
+    <section class="plan-section bg-black" id="Plans">
+        <h1 key="choose" class="title d-flex justify-content-center text-light tr">Choose your plan</h1>
+        <div class="container">
+            <div class="row  no-gutters">
+
+                <div class="col d-flex justify-content-center">
+                    <div class="card h-100 " >
+                        <div class="card-body text-center ">
+                            <h4 class="m-0 tr">Amateur</h4>
+                            <h1 class="t-free tr" >Free</h1>
+                            <button key="selected" type="button " class="tr">SELECT</button>
+                            <hr class="my-3" />
+                            <div key="things" class="medium text-black-50 tr">Features:<br>- Gamer Amateur<br>- Streamer Amateur<br>- News and Tournaments</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h4 class="text-uppercase m-0 tr">Premium</h4>
+                            <h1 class="tr">5.00</h1>
+                            <h4 key="amount" class="tr">USD/month</h4>
+                            <button key="select-2" type="button" class="tr">SELECT</button>
+                            <hr class="my-3" />
+                            <div key="things-2" class="medium text-black-50 tr">Features:<br>- All features from Free Plan<br>- Tournaments Management</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-aboutus " id="AboutUs">
+        <div class="container">
+
+            <div class="title row pt-3 text-center "><h1 key="about-us" class="tr text-white">ABOUT US</h1></div>
+
+            <div class="row pt-3">
+                <div class="col-lg-4 text-center">
+                    <img src="img/Foto-Aaron.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
+                         aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                    <h2 class="tr text-white">Aaron M.</h2>
+                </div>
+                <div class="col-lg-4 text-center"></div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 text-center">
+                    <img src="img/Foto-Leonardo.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
+                         aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                    <h2 class="tr text-white">Leonardo R.</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <img src="img/Foto-Paolo.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
+                         aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                    <h2 class="tr text-white">Paolo P. </h2>
+                </div>
+                <div class="col-lg-4 text-center">
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img src="img/Foto-Javier.png" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                         role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                    <h2 class="tr text-white">Javier O.</h2>
+                </div>
+            </div>
+        
             <div class="featured-text text-center text-lg-left">
-              <h1 class="text-white mb-0">Amateur Streamer</h1>
-              <p class="text-white-50 mb-0">Stream with two simple steps and your streams will reach many
-                persons. Enjoy and have fun broadcasting direct. </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row justify-content-center align-items-center no-gutters margen-nov">
-          <div class="col-xl-6 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/Tareas.jpg" alt="" /></div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="featured-text text-center text-lg-left">
-              <h1 class="text-white mb-0">Tips and tasks</h1>
-              <p class="text-white-50 mb-0">Improve your skills as a streamer to provide the best quality in your
-                direct, or as a gamer to polish your skills and give your best in each tournament.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="plan-section bg-black" id="Planes">
-      <h1 class="titulo d-flex justify-content-center text-light">Choose your plan</h1>
-      <div class="container">
-        <div class="row  no-gutters">
-
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100 ">
-              <div class="card-body text-center ">
-                <h4 class="m-0">AMATEUR</h4>
-                <h1 class="t-free">Free</h1>
-                <button type="button">SELECT</button>
-                <hr class="my-3" />
-                <div class="medium text-black-50">Features:<br>- Amateur Gamer<br>- Amateur Streamer<br>- Tips and tasks
+                <h1 key="team" class="text-white tr">Video About The Team</h1>
+                <div class="mb-4 pb-4 ratio ratio-16x9">
+                    <iframe width="560" height="315" src="videos/about-team.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-              </div>
             </div>
-          </div>
-
-          <div class="col d-flex justify-content-center">
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <h4 class="text-uppercase m-0">Premium</h4>
-                <h1>5.00</h1>
-                <h4>USD per month</h4>
-                <button type="button">SELECT</button>
-                <hr class="my-3" />
-                <div class="medium text-black-50">FEATURES:<br>- All the features of the free plan<br>- Matchmaking
-                </div>
-              </div>
-            </div>
-          </div>
 
         </div>
-      </div>
-    </section>
-
-    <section class="sec-nosotros " id="Nosotros">
-      <div class="container">
-
-        <div class="titulo row pt-3 text-center">
-          <h1>ABOUT US</h1>
-        </div>
-
-        <div class="row pt-3">
-          <div class="col-lg-4 text-center">
-            <img src="img/Foto-Aaron.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
-              aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-            <h2><a href="https://www.youtube.com/watch?v=QrUF_JXJeu4#t=0s" target="_blank">Aaron M.</a> </h2>
-          </div>
-          <div class="col-lg-4 text-center"></div><!-- /.col-lg-4 -->
-          <div class="col-lg-4 text-center">
-            <img src="img/Foto-Leonardo.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
-              aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-            <h2><a href="https://www.youtube.com/watch?v=QrUF_JXJeu4#t=5m8s" target="_blank">Leonardo R.</a> </h2>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 text-center"></div>
-          <div class="col-lg-4 text-center">
-            <img src="img/Foto-Sebastian.png" class="bd-placeholder-img rounded-circle" width="140" height="140"
-              role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-            <h2><a href="https://www.youtube.com/watch?v=QrUF_JXJeu4#t=7m9s" target="_blank">Sebastian S.</a> </h2>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4 text-center"></div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-lg-4 text-center">
-            <img src="img/Foto-Paolo.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
-              aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-            <h2><a href="https://www.youtube.com/watch?v=QrUF_JXJeu4#t=3m12s" target="_blank">Paolo P.</a> </h2>
-          </div>
-          <div class="col-lg-4 text-center">
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4 text-center">
-            <img src="img/Foto-Javier.png" class="bd-placeholder-img rounded-circle" width="140" height="140"
-              role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-            <h2><a href="https://www.youtube.com/watch?v=QrUF_JXJeu4#t=8m52s" target="_blank">Javier O.</a> </h2>
-          </div>
-        </div>
-
-      </div>
-
 
     </section>
 
-    <section class="informacion " id="Informacion">
+    
+    <section class="informacion " id="Information">
 
-      <div class="row ">
+        <div class="row ">
 
-        <form class="solinfo col ">
-          <div class="card mx-auto">
-            <div class="card-body mx-auto text-center">
+            <form class="solinfo col ">
+                <div class="card mx-auto">
+                    <div class="card-body mx-auto text-center">
 
-              <h2>Request Information</h2>
+                        <h2 key="request" class="tr">Request information</h2>
 
-              <form action="php/enviar.php" method="post">
-                <div class="mb-3 mx-auto text-start ">
-                  <label for="InputNombre" class="form-label ">Name</label>
-                  <input type="text" name="name" class="form-control " id="InputNombre" required>
+                        <form action="php/enviar.php" method="post">
+                            <div class="mb-3 mx-auto text-start ">
+                                <label key="name" for="InputNombre" class="form-label tr">Name</label>
+                                <input type="text" name="name" class="form-control " id="InputNombre" required>
+                            </div>
+
+                            <div class="mb-3 mx-auto text-start">
+                                <label key="last-name" for="InputApellido" class="form-label tr">Last name</label>
+                                <input type="text" name="lastname" class="form-control" id="InputApellido" required>
+                            </div>
+
+                            <div class="mb-3 mx-auto text-start">
+                                <label key="city" for="InputCiudad" class="form-label tr">City</label>
+                                <input type="text" name="city" class="form-control" id="InputCiudad" required>
+                            </div>
+
+                            <div class="mb-3 mx-auto text-start">
+                                <label key="email" for="InputCorreo" class="form-label tr">Email</label>
+                                <input type="email" name="email" class="form-control" id="InputCorreo" required>
+                            </div>
+
+                            <button key="send" type="submit" class="tr">Send</button>
+                        </form>
+
+
+
+                    </div>
+
                 </div>
-
-                <div class="mb-3 mx-auto text-start">
-                  <label for="InputApellido" class="form-label">Last Name</label>
-                  <input type="text" name="lastname" class="form-control" id="InputApellido" required>
-                </div>
-
-                <div class="mb-3 mx-auto text-start">
-                  <label for="InputCiudad" class="form-label">City</label>
-                  <input type="text" name="city" class="form-control" id="InputCiudad" required>
-                </div>
-
-                <div class="mb-3 mx-auto text-start">
-                  <label for="InputCorreo" class="form-label">E-Mail</label>
-                  <input type="email" name="email" class="form-control" id="InputCorreo" required>
-                </div>
-
-                <button type="submit">Send</button>
-              </form>
-
-
-
-            </div>
-
-          </div>
-        </form>
-      </div>
+            </form>
+        </div>
 
     </section>
 
-  </main>
+</main>
 
 
-  <footer class="bg-footer text-white ">
+<footer class="bg-footer text-white ">
 
 
     <div class="container-fluid pt-4 pb-1 ">
 
-      <div class="row ">
+        <div class="row ">
 
-        <div class="logo-footer col d-flex justify-content-start">
-          <h5 class="text-uppercase">
-            <img src="img/logo-blanco.png" alt="" width="150">
-          </h5>
+            <div class="logo-footer col d-flex justify-content-start">
+                <h5 class="text-uppercase">
+                    <img src="img/logo-blanco.png" alt="" width="150" >
+                </h5>
+            </div>
+
+            <div class="col">
+
+                <h5 key="social-media" class="text-uppercase tr">SOCIAL NETWORKS</h5>
+
+                <div class="container p-1 pb-0">
+                    <!-- Section: Social media -->
+                    <section class="mb-4">
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img class="logors"  src="img/Logo-Youtube.png" ></img>
+                        </a>
+
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img class="logors"  src="img/Logo-Facebook.png"></img>
+                        </a>
+
+                        <a href="https://www.twitter.com" target="_blank">
+                            <img class="logors"  src="img/Logo-Twitter.png" ></img>
+                        </a>
+
+                        <a href="https://www.twitch.tv" target="_blank">
+                            <img class="logors"  src="img/Logo-Twitch.png"></img>
+                        </a>
+                    </section>
+                    <!-- Section: Social media -->
+                </div>
+
+            </div>
+            <div class="footer-copy col d-flex justify-content-end mt-4">
+                <div class="text-end p-1">
+                    <pre class="tr"> Privacy Policy      Terms of Service <br>© 2021 Mockup.  All Rights Reserved.</pre>
+                </div>
+            </div>
         </div>
-
-        <div class="col">
-
-          <h5 class="text-uppercase">Social Networks</h5>
-
-          <div class="container p-1 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-              <a href="https://www.youtube.com" target="_blank">
-                <img class="logors" src="img/Logo-Youtube.png"></img>
-              </a>
-
-              <a href="https://www.facebook.com" target="_blank">
-                <img class="logors" src="img/Logo-Facebook.png"></img>
-              </a>
-
-              <a href="https://www.twitter.com" target="_blank">
-                <img class="logors" src="img/Logo-Twitter.png"></img>
-              </a>
-
-              <a href="https://www.twitch.tv" target="_blank">
-                <img class="logors" src="img/Logo-Twitch.png"></img>
-              </a>
-            </section>
-            <!-- Section: Social media -->
-          </div>
-
-        </div>
-        <div class="footer-copy col d-flex justify-content-end mt-4">
-          <div class="text-end p-1">
-            <pre> Privacy Policy      Terms of Service <br>© 2021 Mockup.  All Rights Reserved.</pre>
-          </div>
-        </div>
-
-
-      </div>
-
     </div>
+</footer>
 
-  </footer>
 
-
-  <!-- Bootstrap core JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
 
 </body>
 
